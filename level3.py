@@ -1,0 +1,11 @@
+sauter_hauteur(4)
+avancer()
+sauter_hauteur(3)
+for _ in range(4):
+	avancer()
+	avancer()
+	message=lire_nombre()
+	avancer()
+	sauter_hauteur(message)
+avancer()
+ouvrir()
